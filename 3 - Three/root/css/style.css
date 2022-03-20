@@ -1,0 +1,67 @@
+:root {
+  --background-clr: rgb(235, 101, 101);
+  --banner-background-clr: rgb(83, 64, 201);
+  --claim-clr: rgb(37, 207, 51);
+  --width: 60rem;
+}
+
+.container {
+  height: 30rem;
+  width: var(--width);
+  position: absolute;
+  inset: 0;
+  margin: auto;
+
+  background: var(--background-clr);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.sec {
+  max-width: calc(var(--width) / 2);
+  margin: auto;
+}
+
+.sec-1 {
+  color: white;
+}
+
+.banner {
+  background-color: var(--banner-background-clr);
+  border-radius: 5px;
+  padding: 0.1rem 3rem 0.1rem 3rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px;
+
+  padding: 1rem 1em 1rem 1rem;
+  background: white;
+  border-radius: 5px;
+}
+
+form > * {
+  margin: 0.6rem;
+  line-height: 1.7rem;
+}
+
+.claim-button {
+  background: var(--claim-clr);
+  border-radius: 5px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  text-align: center;
+}
+
+.color {
+  color: red;
+}
